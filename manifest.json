@@ -1,0 +1,23 @@
+{
+  "name": "AS Collab - D2C & Amazon Growth Agency",
+  "short_name": "AS Collab",
+  "description": "India's Premier E-Commerce UGC & Amazon ASIN Launch Agency. Scale your brand with high-converting UGC reels, compliant Amazon Vine setup, and DSP Ads.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#0284c7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/images/agency_logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/images/agency_logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["business", "shopping", "productivity"]
+}

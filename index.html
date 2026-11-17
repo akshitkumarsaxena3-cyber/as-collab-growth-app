@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>AS Collab | India's Leading 360° E-Commerce UGC & Amazon ASIN Launch Agency</title>
+  <meta name="description" content="Scale your e-commerce brand with India's leading 360 growth agency. Compliant Amazon Vine setup, Top 10 BSR ranking, high-converting 9:16 UGC reels, and dark store cataloging.">
+  <meta name="keywords" content="Amazon ASIN Launch Agency, Amazon Vine Review Setup, E-Commerce UGC Video Production, Amazon DSP Ads, Bareilly E-Commerce Marketing, Rank in Top 10 Best Sellers">
+  <link rel="canonical" href="https://www.ascollab.in/">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#090d16">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AS Collab | Amazon Product Launch & UGC Video Production Agency">
+  <meta property="og:description" content="Scale your Amazon & Flipkart sales with India's leading 360 growth agency. 500+ UGC Creators, Top 10 BSR Ranking & Compliant Vine Reviews.">
+  <meta property="og:image" content="assets/images/ad_banner_1.png">
+  <meta property="og:url" content="https://www.ascollab.in/">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandDark: '#090d16',
+            brandCard: '#111827',
+            brandBlue: '#0284c7',
+            brandSky: '#38bdf8',
+            brandGold: '#f59e0b'
+          },
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-brandDark text-slate-100 antialiased selection:bg-brandSky selection:text-brandDark pb-16 md:pb-0">
+
+  <!-- PWA Install Banner -->
+  <div id="pwaInstallBanner" class="hidden bg-gradient-to-r from-sky-900 to-indigo-900 text-white px-4 py-2 text-xs flex items-center justify-between border-b border-sky-500/30 sticky top-0 z-50">
+    <div class="flex items-center gap-2">
+      <i class="fa-solid fa-mobile-screen-button text-brandSky"></i>
+      <span>Install <strong>AS Collab Web App</strong> on your phone for instant access & alerts</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <button onclick="triggerPWAInstall()" class="bg-brandSky text-brandDark px-3 py-1 rounded font-bold hover:brightness-110">Install</button>
+      <button onclick="document.getElementById('pwaInstallBanner').classList.add('hidden')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+
+  <!-- Announcement Bar -->
+  <div class="bg-slate-900/90 border-b border-slate-800 text-xs py-2 px-4 text-center text-slate-300 flex items-center justify-center gap-4 flex-wrap">
+    <span class="flex items-center gap-1.5 font-medium">
+      <span class="pulse-indicator"></span>
+      <span class="text-emerald-400 font-bold">Google Ads Verified Agency</span>
+      <span class="text-slate-500">|</span>
+      <span>Propel Your Brand to Top 10 BSR on Amazon India</span>
+    </span>
+    <a href="tel:+918650659985" class="text-brandSky font-semibold hover:underline hidden sm:inline-flex items-center gap-1">
+      <i class="fa-solid fa-phone text-[10px]"></i> Direct Founder Line: +91 8650659985
+    </a>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="sticky top-0 z-40 glass-panel border-b border-white/10 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="assets/images/agency_logo.jpg" alt="AS Collab Logo" class="w-11 h-11 rounded-xl object-cover ring-2 ring-brandSky/40 shadow-lg shadow-sky-500/20">
+        <div>
+          <span class="text-xl font-black font-heading tracking-tight text-white flex items-center gap-1.5">
+            AS COLLAB <span class="text-xs font-semibold px-2 py-0.5 rounded bg-brandBlue/30 text-brandSky border border-brandSky/30">GROWTH</span>
+          </span>
+          <span class="text-[10px] text-slate-400 font-medium block uppercase tracking-wider">D2C & Amazon Launch Agency</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
+        <a href="#services-section" class="hover:text-brandSky transition-colors">Services</a>
+        <a href="#bsr-calculator" class="hover:text-brandSky transition-colors flex items-center gap-1">
+          <i class="fa-solid fa-chart-line text-xs text-brandSky"></i> BSR Simulator
+        </a>
+        <a href="#roi-calculator" class="hover:text-brandSky transition-colors flex items-center gap-1">
+          <i class="fa-solid fa-calculator text-xs text-brandGold"></i> ROI Estimator
+        </a>
+        <a href="#audit-section" class="hover:text-brandSky transition-colors text-amber-400 font-semibold">Free Audit</a>
+        <a href="#ugc-section" class="hover:text-brandSky transition-colors">UGC Reels</a>
+        <a href="#case-studies-section" class="hover:text-brandSky transition-colors">Case Studies</a>
+        <a href="#trust-dossier-section" class="hover:text-brandSky transition-colors">Trust Dossier</a>
+      </nav>
+
+      <!-- Desktop CTAs -->
+      <div class="hidden sm:flex items-center gap-3">
+        <button onclick="openPortalModal()" class="px-3.5 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 transition">
+          <i class="fa-solid fa-lock text-brandSky mr-1"></i> Brand Portal
+        </button>
+        <a href="https://wa.me/918650659985?text=Hello%20Akshit!%20I%20want%20to%20scale%20my%20Amazon/D2C%20brand%20with%20AS%20Collab." target="_blank" class="px-4 py-2 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-emerald-500 to-green-600 hover:brightness-110 shadow-lg shadow-green-500/20 flex items-center gap-1.5 transition">
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none">
+        <i class="fa-solid fa-bars text-xl"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer Backdrop -->
+  <div id="mobileDrawerBackdrop" onclick="toggleMobileMenu()" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden transition-opacity"></div>
+
+  <!-- Mobile Menu Drawer -->
+  <aside id="mobileDrawer" class="fixed top-0 left-0 bottom-0 w-80 max-w-[85vw] bg-slate-900 border-r border-slate-800 z-50 transform -translate-x-full transition-transform duration-300 ease-in-out p-6 flex flex-col justify-between overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-slate-800">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/agency_logo.jpg" alt="Logo" class="w-10 h-10 rounded-lg">
+          <div>
+            <span class="text-base font-bold font-heading text-white">AS COLLAB</span>
+            <span class="text-[10px] text-slate-400 block">Growth Agency</span>
+          </div>
+        </div>
+        <button onclick="toggleMobileMenu()" class="text-slate-400 hover:text-white p-2">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <nav class="mt-6 flex flex-col gap-4 text-sm font-medium">
+        <a href="#services-section" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-slate-300 hover:text-brandSky py-2">
+          <i class="fa-solid fa-cubes text-brandSky w-5 text-center"></i> Services
+        </a>
+        <a href="#bsr-calculator" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-slate-300 hover:text-brandSky py-2">
+          <i class="fa-solid fa-chart-line text-brandSky w-5 text-center"></i> Amazon BSR Calculator
+        </a>
+        <a href="#roi-calculator" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-slate-300 hover:text-brandSky py-2">
+          <i class="fa-solid fa-calculator text-brandGold w-5 text-center"></i> ROI Estimator
+        </a>
+        <a href="#audit-section" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-amber-400 font-bold py-2">
+          <i class="fa-solid fa-bolt text-amber-400 w-5 text-center"></i> Free ASIN Listing Audit
+        </a>
+        <a href="#ugc-section" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-slate-300 hover:text-brandSky py-2">
+          <i class="fa-solid fa-film text-purple-400 w-5 text-center"></i> 9:16 UGC Video Reels
+        </a>
+        <a href="#case-studies-section" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-slate-300 hover:text-brandSky py-2">
+          <i class="fa-solid fa-trophy text-amber-400 w-5 text-center"></i> Case Studies & Proof
+        </a>
+        <a href="#trust-dossier-section" onclick="toggleMobileMenu()" class="flex items-center gap-3 text-slate-300 hover:text-brandSky py-2">
+          <i class="fa-solid fa-shield-halved text-emerald-400 w-5 text-center"></i> Govt MSME Dossier
+        </a>
+      </nav>
+
+      <div class="mt-6 pt-6 border-t border-slate-800 flex flex-col gap-3">
+        <button onclick="openPortalModal(); toggleMobileMenu();" class="w-full py-2.5 rounded-xl text-xs font-semibold bg-slate-800 text-slate-200 border border-slate-700">
+          <i class="fa-solid fa-key text-brandSky mr-1.5"></i> Brand Partner Login
+        </button>
+        <button onclick="openCreatorModal(); toggleMobileMenu();" class="w-full py-2.5 rounded-xl text-xs font-semibold bg-indigo-900/60 text-indigo-200 border border-indigo-700/50">
+          <i class="fa-solid fa-video text-purple-400 mr-1.5"></i> Join 500+ Creator Network
+        </button>
+      </div>
+    </div>
+
+    <div class="pt-6 border-t border-slate-800 text-xs text-slate-400">
+      <div class="font-bold text-white mb-1">Founder Akshit Saxena</div>
+      <div class="flex items-center gap-2 mb-2">
+        <i class="fa-solid fa-phone text-brandSky"></i> +91 8650659985
+      </div>
+      <div>Civil Lines, Bareilly, UP, India</div>
+    </div>
+  </aside>
+
+  <!-- Hero Section (Aligned with Google Ads Copy) -->
+  <section class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden hero-mesh-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Top Badge -->
+      <div class="flex justify-center mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-800/80 border border-brandSky/30 shadow-lg shadow-sky-500/10 text-xs text-slate-300">
+          <span class="pulse-indicator"></span>
+          <span class="font-semibold text-brandSky">🏆 India’s Premier E-Commerce UGC & Amazon ASIN Launch Agency</span>
+        </div>
+      </div>
+
+      <!-- Main Google Ad Headline -->
+      <div class="text-center max-w-4xl mx-auto">
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black font-heading tracking-tight text-white leading-tight sm:leading-none mb-6">
+          Scale Your E-Commerce Brand With India's Leading <span class="gradient-text-sky">360° Growth Agency</span>
+        </h1>
+        <p class="text-base sm:text-xl text-slate-300 font-medium max-w-3xl mx-auto mb-8 leading-relaxed">
+          Boost ROI Today | Get Data-Driven Amazon DSP, Meta Ads & Instant Dark Store Cataloging. Turn your ASIN into a Top 10 Best Seller with 100% compliant Amazon Vine & 9:16 authentic creator UGC reels.
+        </p>
+
+        <!-- Google Ad Snippet Highlights -->
+        <div class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-4 mb-10 text-xs sm:text-sm font-semibold">
+          <span class="px-3.5 py-1.5 rounded-lg bg-sky-950/70 border border-sky-500/30 text-sky-200 flex items-center gap-1.5">
+            <i class="fa-solid fa-check text-brandSky"></i> Compliant Amazon Vine Setup
+          </span>
+          <span class="px-3.5 py-1.5 rounded-lg bg-amber-950/70 border border-amber-500/30 text-amber-200 flex items-center gap-1.5">
+            <i class="fa-solid fa-trophy text-amber-400"></i> Rank in Top 10 Best Sellers
+          </span>
+          <span class="px-3.5 py-1.5 rounded-lg bg-indigo-950/70 border border-indigo-500/30 text-indigo-200 flex items-center gap-1.5">
+            <i class="fa-solid fa-box text-indigo-300"></i> Amazon ASIN Launch Agency
+          </span>
+          <span class="px-3.5 py-1.5 rounded-lg bg-emerald-950/70 border border-emerald-500/30 text-emerald-200 flex items-center gap-1.5">
+            <i class="fa-solid fa-film text-emerald-300"></i> High-Converting UGC Reels
+          </span>
+        </div>
+
+        <!-- Hero CTAs -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+          <a href="#audit-section" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold text-sm shadow-xl shadow-sky-500/30 hover:brightness-110 transform hover:-translate-y-0.5 transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-bolt text-amber-300"></i>
+            <span>Get Free ASIN Audit Online Now</span>
+          </a>
+          <a href="https://wa.me/918650659985?text=Hello%20Founder%20Akshit!%20I%20want%20to%20consult%20regarding%20AS%20Collab%20Amazon%20Growth%20%26%20Ads%20Services." target="_blank" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-slate-800/90 text-slate-200 font-bold text-sm border border-slate-700 hover:bg-slate-700 transition flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
+            <span>Speak to Founder Akshit</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual & Live Telemetry Card -->
+      <div class="mt-14 max-w-5xl mx-auto">
+        <div class="glass-panel rounded-3xl p-6 sm:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
+          
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pb-6 border-b border-slate-800 text-center">
+            <div>
+              <div class="text-2xl sm:text-3xl font-black font-heading text-white">₹4.8 Cr+</div>
+              <div class="text-xs text-slate-400 font-medium mt-1">Client GMV Generated</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-black font-heading text-brandSky">150+</div>
+              <div class="text-xs text-slate-400 font-medium mt-1">Top 10 BSR ASINs</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-black font-heading text-brandGold">500+</div>
+              <div class="text-xs text-slate-400 font-medium mt-1">Vetted UGC Creators</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-black font-heading text-emerald-400">4.4x</div>
+              <div class="text-xs text-slate-400 font-medium mt-1">Average Blended ROAS</div>
+            </div>
+          </div>
+
+          <!-- Interactive Ad Assets Preview Grid -->
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+            
+            <!-- Left: Amazon BSR Climb Preview -->
+            <div class="bg-slate-900/80 rounded-2xl p-4 border border-slate-800">
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Live BSR Telemetry</span>
+                <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold">#4 Best Seller</span>
+              </div>
+              <img src="assets/images/amazon-ranking.jpg" alt="Amazon Ranking Proof" class="w-full h-44 object-cover rounded-xl mb-3 border border-slate-800">
+              <div class="text-xs text-slate-300">
+                <strong class="text-white">Beauty & Personal Care:</strong> Jumped from BSR #4,820 to #4 in 27 days using targeted Vine reviews + DSP video.
+              </div>
+            </div>
+
+            <!-- Middle: UGC Production & 9:16 Video Showcase -->
+            <div class="bg-slate-900/80 rounded-2xl p-4 border border-slate-800 text-center relative group">
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">UGC Creator Reel</span>
+                <span class="text-xs px-2 py-0.5 rounded bg-brandSky/20 text-brandSky font-bold">4.8% CTR</span>
+              </div>
+              <div class="relative overflow-hidden rounded-xl border border-slate-800 h-44 cursor-pointer" onclick="openReelModal('Shalini M.', 'Khilori Beauty', 'Unboxing & Skin Glow Routine', '5.2%', 'assets/images/khilori_ugc.jpg')">
+                <img src="assets/images/khilori_ugc.jpg" alt="Khilori UGC Reel" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-300">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full bg-brandSky/90 text-brandDark flex items-center justify-center text-lg shadow-lg group-hover:scale-110 transition">
+                    <i class="fa-solid fa-play ml-1"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text-xs text-slate-300 mt-3 text-left">
+                <strong class="text-white">Authentic 9:16 UGC:</strong> Over 500 verified creators delivering organic-feel ads that stop the scroll.
+              </div>
+            </div>
+
+            <!-- Right: Performance Metrics & Google Ad Asset -->
+            <div class="bg-slate-900/80 rounded-2xl p-4 border border-slate-800">
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Agency Growth Blueprint</span>
+                <span class="text-xs px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold">100% Compliant</span>
+              </div>
+              <img src="assets/images/ad_growth_metrics.jpg" alt="Performance Growth Blueprint" class="w-full h-44 object-cover rounded-xl mb-3 border border-slate-800">
+              <div class="text-xs text-slate-300">
+                <strong class="text-white">360° Management:</strong> Cataloging, Vine reviews, negative keyword negation, and dark store supply chain.
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 1: Interactive Amazon BSR Rank Jump Simulator -->
+  <section id="bsr-calculator" class="py-16 md:py-24 bg-slate-900/60 border-y border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-widest text-brandSky font-bold">Proprietary Algorithm</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Amazon BSR Rank Jump Simulator
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-3">
+          Simulate how many units/day, Vine reviews, and ad spend you need to jump your ASIN into the coveted Amazon India Top 10 Best Sellers.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Controls Column -->
+        <div class="lg:col-span-5 glass-panel rounded-2xl p-6 border border-slate-800 space-y-5">
+          
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+              1. Select Amazon India Category
+            </label>
+            <select id="bsrCategory" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandSky transition">
+              <option value="beauty">Beauty & Personal Care (Skin/Hair)</option>
+              <option value="kitchen">Home & Kitchen Appliances</option>
+              <option value="electronics">Electronics & Audio Accessories</option>
+              <option value="grocery">Grocery & Gourmet Foods</option>
+              <option value="fashion">Apparel & Fashion Accessories</option>
+              <option value="fitness">Health, Nutrition & Fitness</option>
+            </select>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <label class="text-xs font-semibold text-slate-300 uppercase tracking-wider">
+                2. Current Product BSR Rank
+              </label>
+              <span class="text-xs text-slate-400">e.g. #3,500</span>
+            </div>
+            <input type="number" id="bsrCurrentRank" value="3500" min="50" max="50000" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandSky transition">
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <label class="text-xs font-semibold text-slate-300 uppercase tracking-wider">
+                3. Target BSR Rank Goal
+              </label>
+              <span class="text-xs text-brandSky font-bold">Goal: Top 10 BSR</span>
+            </div>
+            <input type="number" id="bsrTargetRank" value="10" min="1" max="500" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandSky transition">
+          </div>
+
+          <div class="pt-2">
+            <button onclick="shareBSRToWhatsApp()" class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 text-white font-bold text-sm shadow-lg shadow-green-500/20 hover:brightness-110 flex items-center justify-center gap-2">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>Deploy This ASIN Strategy On WhatsApp</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Simulation Output Column -->
+        <div class="lg:col-span-7 glass-panel rounded-2xl p-6 sm:p-8 border border-sky-500/20 relative overflow-hidden">
+          <div class="flex items-center justify-between pb-6 border-b border-slate-800">
+            <div>
+              <span class="text-xs text-slate-400 font-semibold uppercase">Computed Velocity Requirement</span>
+              <div id="bsrDailyUnitsResult" class="text-3xl sm:text-4xl font-black font-heading text-brandSky mt-1">140 units/day</div>
+            </div>
+            <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-bold flex items-center gap-1">
+              <i class="fa-solid fa-bolt"></i> High Growth
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4 py-6 border-b border-slate-800">
+            <div>
+              <span class="text-xs text-slate-400 block mb-1">Projected Monthly GMV</span>
+              <div id="bsrProjectedGMVResult" class="text-lg sm:text-xl font-bold text-white">₹25 Lakhs/mo (+₹18.5L)</div>
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 block mb-1">Estimated Ad Velocity Spend</span>
+              <div id="bsrEstimatedPPCResult" class="text-lg sm:text-xl font-bold text-brandGold">₹1,85,000/mo</div>
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 block mb-1">Time to Top 10 BSR</span>
+              <div id="bsrTimelineResult" class="text-lg sm:text-xl font-bold text-emerald-400">21 - 35 Days</div>
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 block mb-1">Recommended Social Proof</span>
+              <div id="bsrVineUGCResult" class="text-lg sm:text-xl font-bold text-purple-300">15 Vine + 6 UGC Reels</div>
+            </div>
+          </div>
+
+          <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-xs text-slate-400">
+              *Calculated against verified category sales rank log algorithms for Amazon.in (2026 Telemetry).
+            </div>
+            <a href="#audit-section" class="text-xs font-bold text-brandSky hover:underline flex items-center gap-1 shrink-0">
+              Run Free Audit on My ASIN <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 2: Live Campaign ROI & Budget Estimator -->
+  <section id="roi-calculator" class="py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-widest text-brandGold font-bold">Predictable Unit Economics</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Live Campaign ROI & Budget Estimator
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-3">
+          Calculate your blended revenue return including paid ad conversion and organic halo lift from Amazon search algorithms.
+        </p>
+      </div>
+
+      <div class="glass-panel rounded-3xl p-6 sm:p-10 border border-slate-800">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Slider Controls -->
+          <div class="lg:col-span-6 space-y-6">
+            
+            <div>
+              <div class="flex justify-between items-center mb-3">
+                <label class="text-sm font-bold text-slate-200">Planned Monthly Ad Spend</label>
+                <span id="roiSpendValueDisplay" class="text-base font-black text-brandSky font-heading">₹1.00 Lakhs</span>
+              </div>
+              <input type="range" id="roiSpendSlider" min="25000" max="1000000" step="25000" value="100000" class="w-full">
+              <div class="flex justify-between text-[11px] text-slate-500 mt-1">
+                <span>₹25K</span>
+                <span>₹5 Lakhs</span>
+                <span>₹10 Lakhs</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between items-center mb-3">
+                <label class="text-sm font-bold text-slate-200">Target ROAS Multiplier</label>
+                <span id="roiRoasValueDisplay" class="text-base font-black text-brandGold font-heading">4.5x ROAS</span>
+              </div>
+              <input type="range" id="roiRoasSlider" min="2.5" max="8.0" step="0.1" value="4.5" class="w-full">
+              <div class="flex justify-between text-[11px] text-slate-500 mt-1">
+                <span>2.5x (Safe)</span>
+                <span>4.5x (Agency Avg)</span>
+                <span>8.0x (Hyper-Scaled)</span>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800 text-xs text-slate-300">
+              <strong class="text-white block mb-1">💡 What is the Organic Halo Effect?</strong>
+              When AS Collab scales your PPC velocity, Amazon’s A10 algorithm automatically ranks your organic listing for primary keywords, generating 35% - 50% non-ad sales for free!
+            </div>
+
+          </div>
+
+          <!-- Revenue Cards -->
+          <div class="lg:col-span-6 bg-slate-950/80 rounded-2xl p-6 border border-slate-800 space-y-4">
+            
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+              <span class="text-xs text-slate-400">Direct Ad-Attributed Sales</span>
+              <span id="roiDirectRevenue" class="text-lg font-bold text-white">₹4.50 L</span>
+            </div>
+
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+              <div class="flex items-center gap-1.5">
+                <span class="text-xs text-slate-400">Organic Halo Search Lift (+42%)</span>
+                <i class="fa-solid fa-circle-info text-[10px] text-slate-500"></i>
+              </div>
+              <span id="roiOrganicHalo" class="text-lg font-bold text-emerald-400">+₹1.89 L</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brandBlue/10 border border-brandSky/30 flex items-center justify-between">
+              <div>
+                <span class="text-xs text-slate-300 uppercase tracking-wider block font-semibold">Total Projected Brand GMV</span>
+                <span id="roiTotalGMV" class="text-2xl sm:text-3xl font-black font-heading text-brandSky mt-0.5 block">₹6.39 Lakhs/mo</span>
+              </div>
+              <span class="text-xs font-bold text-brandSky bg-brandBlue/30 px-3 py-1 rounded-lg">Blended 6.4x</span>
+            </div>
+
+            <div class="flex items-center justify-between pt-2">
+              <span class="text-xs text-slate-400">Estimated Net Incremental Profit:</span>
+              <span id="roiNetProfit" class="text-base font-bold text-emerald-400">₹78,920/mo</span>
+            </div>
+
+            <button onclick="consultROIPlan()" class="w-full mt-4 py-3.5 px-4 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold text-sm shadow-lg shadow-sky-500/25 hover:brightness-110 transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-calendar-check"></i>
+              <span>Schedule 15-Min Strategy Call With Akshit</span>
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 3: Instant Free Amazon / Flipkart Listing Audit Engine -->
+  <section id="audit-section" class="py-16 md:py-24 bg-gradient-to-b from-slate-900 to-brandDark border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs uppercase tracking-widest text-amber-400 font-bold">100% Free • No Obligation</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Instant Free Amazon Listing & Brand Audit
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-3">
+          Discover hidden revenue leaks, missing keywords, and conversion blockers on your Amazon or Flipkart listing in 60 seconds.
+        </p>
+      </div>
+
+      <div class="glass-panel rounded-3xl p-6 sm:p-10 border border-amber-500/30 shadow-2xl relative">
+        
+        <form id="brandAuditForm" class="space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Brand / Company Name</label>
+              <input type="text" id="auditBrandName" required placeholder="e.g. Khilori Organics" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-400 transition">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Product ASIN or URL</label>
+              <input type="text" id="auditAsin" required placeholder="e.g. B09XYZ1234 or amazon.in/dp/..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-400 transition">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Marketplace Platform</label>
+              <select id="auditMarketplace" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-400 transition">
+                <option value="Amazon India">Amazon India (Amazon.in)</option>
+                <option value="Flipkart">Flipkart Seller Hub</option>
+                <option value="Quick Commerce">Quick Commerce (Blinkit / Zepto)</option>
+                <option value="D2C Shopify">D2C Shopify Brand</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">WhatsApp Number (For PDF Report)</label>
+              <input type="tel" id="auditPhone" required placeholder="e.g. +91 9876543210" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-amber-400 transition">
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <button type="submit" class="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 text-brandDark font-black text-sm uppercase tracking-wider shadow-xl shadow-amber-500/20 hover:brightness-110 transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-magnifying-glass-chart text-lg"></i>
+              <span>Run Live Listing Audit Now</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400 text-center">
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-lock text-brandSky"></i> 100% Confidential Data</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-bolt text-amber-400"></i> Instant 60-Second Scan</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-file-pdf text-red-400"></i> Full 12-Page PDF Delivered</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 4: 9:16 High-Converting UGC Video Reels Showcase -->
+  <section id="ugc-section" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs uppercase tracking-widest text-purple-400 font-bold">500+ Verified Creators</span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+            High-Converting 9:16 Creator Video Reels
+          </h2>
+          <p class="text-sm sm:text-base text-slate-400 mt-2 max-w-2xl">
+            We produce authentic, problem-agitation-solution UGC reels that stop the scroll on Instagram, Meta Ads, and Amazon Video.
+          </p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <button onclick="openCreatorModal()" class="px-5 py-2.5 rounded-xl bg-purple-950/60 border border-purple-500/40 text-purple-200 text-xs font-bold hover:bg-purple-900/60 transition flex items-center gap-2">
+            <i class="fa-solid fa-users"></i> Join as a Paid Creator
+          </button>
+        </div>
+      </div>
+
+      <!-- Reels Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Reel 1: Khilori UGC -->
+        <div class="glass-panel rounded-2xl overflow-hidden border border-slate-800 group hover:border-brandSky/40 transition">
+          <div class="relative aspect-reel overflow-hidden cursor-pointer" onclick="openReelModal('Pooja V.', 'Khilori Organics', 'Face Glow Oil Teardown', '4.8%', 'assets/images/khilori_ugc.jpg')">
+            <img src="assets/images/khilori_ugc.jpg" alt="Khilori UGC" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 p-4 flex flex-col justify-between">
+              <span class="self-start text-[10px] px-2 py-0.5 rounded bg-brandSky/90 text-brandDark font-bold">Beauty & Skin</span>
+              <div class="flex items-center justify-between">
+                <div>
+                  <div class="text-white text-xs font-bold">Pooja V. (48k)</div>
+                  <div class="text-[11px] text-slate-300">Face Glow Routine</div>
+                </div>
+                <div class="w-8 h-8 rounded-full bg-brandSky text-brandDark flex items-center justify-center text-xs shadow-lg">
+                  <i class="fa-solid fa-play ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 text-xs text-slate-400 flex items-center justify-between">
+            <span>CTR: <strong class="text-emerald-400">4.8%</strong></span>
+            <span>ROAS: <strong class="text-white">5.2x</strong></span>
+          </div>
+        </div>
+
+        <!-- Reel 2: Amazon Ranking & Unboxing -->
+        <div class="glass-panel rounded-2xl overflow-hidden border border-slate-800 group hover:border-brandSky/40 transition">
+          <div class="relative aspect-reel overflow-hidden cursor-pointer" onclick="openReelModal('Aman K.', 'TechAudio Pro', 'True Wireless Earbuds Unboxing', '5.4%', 'assets/images/ad_hero_amazon.jpg')">
+            <img src="assets/images/ad_hero_amazon.jpg" alt="Tech UGC" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 p-4 flex flex-col justify-between">
+              <span class="self-start text-[10px] px-2 py-0.5 rounded bg-amber-500/90 text-brandDark font-bold">Electronics</span>
+              <div class="flex items-center justify-between">
+                <div>
+                  <div class="text-white text-xs font-bold">Aman K. (120k)</div>
+                  <div class="text-[11px] text-slate-300">Bass & Mic Test</div>
+                </div>
+                <div class="w-8 h-8 rounded-full bg-amber-400 text-brandDark flex items-center justify-center text-xs shadow-lg">
+                  <i class="fa-solid fa-play ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 text-xs text-slate-400 flex items-center justify-between">
+            <span>CTR: <strong class="text-emerald-400">5.4%</strong></span>
+            <span>ROAS: <strong class="text-white">4.9x</strong></span>
+          </div>
+        </div>
+
+        <!-- Reel 3: Kitchen & Home -->
+        <div class="glass-panel rounded-2xl overflow-hidden border border-slate-800 group hover:border-brandSky/40 transition">
+          <div class="relative aspect-reel overflow-hidden cursor-pointer" onclick="openReelModal('Simran G.', 'ChefKitchen', 'Electric Chopper 10-Sec Demo', '6.1%', 'assets/images/ugc-production.jpg')">
+            <img src="assets/images/ugc-production.jpg" alt="Kitchen UGC" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 p-4 flex flex-col justify-between">
+              <span class="self-start text-[10px] px-2 py-0.5 rounded bg-purple-500/90 text-brandDark font-bold">Kitchen Appliances</span>
+              <div class="flex items-center justify-between">
+                <div>
+                  <div class="text-white text-xs font-bold">Simran G. (85k)</div>
+                  <div class="text-[11px] text-slate-300">Instant Prep Demo</div>
+                </div>
+                <div class="w-8 h-8 rounded-full bg-purple-400 text-brandDark flex items-center justify-center text-xs shadow-lg">
+                  <i class="fa-solid fa-play ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 text-xs text-slate-400 flex items-center justify-between">
+            <span>CTR: <strong class="text-emerald-400">6.1%</strong></span>
+            <span>ROAS: <strong class="text-white">6.4x</strong></span>
+          </div>
+        </div>
+
+        <!-- Reel 4: Fitness & Wellness -->
+        <div class="glass-panel rounded-2xl overflow-hidden border border-slate-800 group hover:border-brandSky/40 transition">
+          <div class="relative aspect-reel overflow-hidden cursor-pointer" onclick="openReelModal('Vikram R.', 'NutriCore Whey', 'Taste Test & Macro Breakdown', '4.3%', 'assets/images/ad_ugc_square.jpg')">
+            <img src="assets/images/ad_ugc_square.jpg" alt="Fitness UGC" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 p-4 flex flex-col justify-between">
+              <span class="self-start text-[10px] px-2 py-0.5 rounded bg-emerald-500/90 text-brandDark font-bold">Health & Fitness</span>
+              <div class="flex items-center justify-between">
+                <div>
+                  <div class="text-white text-xs font-bold">Vikram R. (62k)</div>
+                  <div class="text-[11px] text-slate-300">Clean Ingredients</div>
+                </div>
+                <div class="w-8 h-8 rounded-full bg-emerald-400 text-brandDark flex items-center justify-center text-xs shadow-lg">
+                  <i class="fa-solid fa-play ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-3 text-xs text-slate-400 flex items-center justify-between">
+            <span>CTR: <strong class="text-emerald-400">4.3%</strong></span>
+            <span>ROAS: <strong class="text-white">4.1x</strong></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Founder YouTube Preview Banner -->
+      <div class="mt-12 glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <img src="assets/images/founder_akshit.jpg" alt="Founder Akshit" class="w-14 h-14 rounded-full object-cover ring-2 ring-brandSky">
+          <div>
+            <h3 class="text-base font-bold font-heading text-white">Watch Akshit Saxena Break Down AS Collab's Launch Framework</h3>
+            <p class="text-xs text-slate-400">Learn how we took an Indian beauty brand to #4 BSR in under 30 days.</p>
+          </div>
+        </div>
+        <a href="https://www.youtube.com/watch?v=edVo4pDp4Sw" target="_blank" class="px-5 py-3 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs flex items-center gap-2 shadow-lg shadow-red-600/20 shrink-0 transition">
+          <i class="fa-brands fa-youtube text-base"></i> Watch Full Video On YouTube
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 5: 360° E-Commerce Growth Services -->
+  <section id="services-section" class="py-16 md:py-24 bg-slate-900/60 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-widest text-brandSky font-bold">End-to-End Capabilities</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Complete Amazon & Marketplace Growth Suite
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-3">
+          We don't just run ads. We build sustainable category leaders across Amazon, Flipkart, and Dark Stores.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Service 1 -->
+        <div class="glass-panel glass-panel-hover rounded-2xl p-6 border border-slate-800">
+          <div class="w-12 h-12 rounded-xl bg-sky-950/80 text-brandSky flex items-center justify-center text-xl mb-4 border border-sky-500/30">
+            <i class="fa-solid fa-boxes-stacked"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">1. Amazon Storefront & Cataloging</h3>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            High-converting A+ Content, Brand Story modules, mobile-first lifestyle imagery, 3D infographic renders, and SEO keyword indexing.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5">
+            <li><i class="fa-solid fa-check text-brandSky mr-1.5"></i> 7/7 Image Stack Optimization</li>
+            <li><i class="fa-solid fa-check text-brandSky mr-1.5"></i> Premium A+ & Brand Story</li>
+            <li><i class="fa-solid fa-check text-brandSky mr-1.5"></i> Search Term Indexation</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="glass-panel glass-panel-hover rounded-2xl p-6 border border-slate-800">
+          <div class="w-12 h-12 rounded-xl bg-amber-950/80 text-brandGold flex items-center justify-center text-xl mb-4 border border-amber-500/30">
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">2. Amazon Advertising & DSP</h3>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Data-driven Sponsored Products, Sponsored Brands Video, Sponsored Display, and Amazon DSP programmatic targeting for maximum ROAS.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5">
+            <li><i class="fa-solid fa-check text-brandGold mr-1.5"></i> Dayparting & Bid Automation</li>
+            <li><i class="fa-solid fa-check text-brandGold mr-1.5"></i> Competitor ASIN Defense</li>
+            <li><i class="fa-solid fa-check text-brandGold mr-1.5"></i> Retargeting via Amazon DSP</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="glass-panel glass-panel-hover rounded-2xl p-6 border border-slate-800">
+          <div class="w-12 h-12 rounded-xl bg-emerald-950/80 text-emerald-400 flex items-center justify-center text-xl mb-4 border border-emerald-500/30">
+            <i class="fa-solid fa-shield-check"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">3. Compliant Amazon Vine Reviews</h3>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            100% Amazon TOS compliant Vine reviewer enrollment to establish immediate credibility, verified badges, and high conversion velocity.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5">
+            <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> Amazon Vine Enrollment</li>
+            <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> Zero Risk of Account Suspension</li>
+            <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> Verified Purchase Badges</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="glass-panel glass-panel-hover rounded-2xl p-6 border border-slate-800">
+          <div class="w-12 h-12 rounded-xl bg-purple-950/80 text-purple-400 flex items-center justify-center text-xl mb-4 border border-purple-500/30">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">4. 9:16 E-Commerce UGC Reels</h3>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Access over 500 vetted Indian creators across Hindi, English, and regional languages producing high-CTR unboxings, tutorials, and hooks.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5">
+            <li><i class="fa-solid fa-check text-purple-400 mr-1.5"></i> Scriptwriting & Hook Testing</li>
+            <li><i class="fa-solid fa-check text-purple-400 mr-1.5"></i> Raw + Edited 9:16 Formats</li>
+            <li><i class="fa-solid fa-check text-purple-400 mr-1.5"></i> Full Commercial Ad Rights</li>
+          </ul>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="glass-panel glass-panel-hover rounded-2xl p-6 border border-slate-800">
+          <div class="w-12 h-12 rounded-xl bg-red-950/80 text-red-400 flex items-center justify-center text-xl mb-4 border border-red-500/30">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">5. Dark Store & Quick Commerce</h3>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Expand your FMCG/D2C brand into 10-minute delivery ecosystems: Blinkit, Zepto, and Instamart with rapid catalog onboarding.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5">
+            <li><i class="fa-solid fa-check text-red-400 mr-1.5"></i> Dark Store Inventory Mapping</li>
+            <li><i class="fa-solid fa-check text-red-400 mr-1.5"></i> Quick Commerce Compliance</li>
+            <li><i class="fa-solid fa-check text-red-400 mr-1.5"></i> High-Frequency Re-orders</li>
+          </ul>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="glass-panel glass-panel-hover rounded-2xl p-6 border border-slate-800">
+          <div class="w-12 h-12 rounded-xl bg-blue-950/80 text-blue-400 flex items-center justify-center text-xl mb-4 border border-blue-500/30">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">6. D2C Shopify & App Dev</h3>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Custom high-converting Shopify stores, mobile apps, and custom automation bots designed to maximize average order value (AOV).
+          </p>
+          <ul class="text-xs text-slate-300 space-y-1.5">
+            <li><i class="fa-solid fa-check text-blue-400 mr-1.5"></i> 1-Page Checkout Funnels</li>
+            <li><i class="fa-solid fa-check text-blue-400 mr-1.5"></i> WhatsApp Abandoned Cart Bots</li>
+            <li><i class="fa-solid fa-check text-blue-400 mr-1.5"></i> Native Android & iOS Apps</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 6: Real Proven Case Studies & Wall of Proof -->
+  <section id="case-studies-section" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-widest text-emerald-400 font-bold">Documented Client Results</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Real Brands Scaled to Category Domination
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-3">
+          Every number is backed by live Amazon seller central reports and verified invoices.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Case 1 -->
+        <div class="glass-panel rounded-2xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-brandSky bg-sky-950/80 px-3 py-1 rounded-full border border-sky-500/30">Beauty D2C</span>
+            <span class="text-xs text-slate-400">90 Days</span>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">Khilori Organics</h3>
+          <div class="text-2xl font-black text-brandSky font-heading mb-3">₹1.2L → ₹28.4L/mo</div>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Scaled from zero presence to #4 Best Seller in Face Serums by deploying 15 Vine reviews, 8 creator reels, and aggressive Sponsored Brands Video conquesting.
+          </p>
+          <div class="text-xs font-semibold text-emerald-400 flex items-center gap-1">
+            <i class="fa-solid fa-arrow-trend-up"></i> 2,260% Revenue Increase
+          </div>
+        </div>
+
+        <!-- Case 2 -->
+        <div class="glass-panel rounded-2xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-amber-400 bg-amber-950/80 px-3 py-1 rounded-full border border-amber-500/30">Ayurvedic Wellness</span>
+            <span class="text-xs text-slate-400">60 Days</span>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">VedaPure Ayurveda</h3>
+          <div class="text-2xl font-black text-amber-400 font-heading mb-3">3.8x → 6.2x ROAS</div>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Reduced wasted ad spend by 62% using negative keyword harvesting and redirected budget into high-intent DSP retargeting.
+          </p>
+          <div class="text-xs font-semibold text-emerald-400 flex items-center gap-1">
+            <i class="fa-solid fa-arrow-trend-up"></i> 62% Lower Cost Per Acquisition
+          </div>
+        </div>
+
+        <!-- Case 3 -->
+        <div class="glass-panel rounded-2xl p-6 border border-slate-800">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-purple-400 bg-purple-950/80 px-3 py-1 rounded-full border border-purple-500/30">Electronics</span>
+            <span class="text-xs text-slate-400">45 Days</span>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white mb-2">Voltaic Sound</h3>
+          <div class="text-2xl font-black text-purple-400 font-heading mb-3">Top 10 BSR Achieved</div>
+          <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+            Launched brand-new TWS earbuds ASIN. Achieved #8 Best Seller rank within 45 days with 100% organic listing momentum.
+          </p>
+          <div class="text-xs font-semibold text-emerald-400 flex items-center gap-1">
+            <i class="fa-solid fa-arrow-trend-up"></i> 14,000+ Units Sold in Q3
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 7: Govt. Registered Enterprise Trust Dossier -->
+  <section id="trust-dossier-section" class="py-16 md:py-24 bg-slate-900/60 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-widest text-emerald-400 font-bold">100% Peace of Mind</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Govt. Registered Enterprise You Can Trust
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-3">
+          Official MSME registered enterprise in Bareilly, Uttar Pradesh, scaling brands across India with institutional transparency.
+        </p>
+      </div>
+
+      <div class="glass-panel rounded-3xl p-6 sm:p-10 border border-slate-800">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          
+          <!-- Column 1: MSME Registration -->
+          <div class="bg-slate-950/80 rounded-2xl p-6 border border-slate-800 text-center">
+            <div class="w-14 h-14 rounded-2xl bg-emerald-950/80 text-emerald-400 flex items-center justify-center text-2xl mx-auto mb-4 border border-emerald-500/30">
+              <i class="fa-solid fa-landmark"></i>
+            </div>
+            <h3 class="text-base font-bold font-heading text-white mb-1">MSME Udyam Registered</h3>
+            <div class="text-xs text-brandSky font-mono font-bold mb-3">UDYAM-UP-12-0080649</div>
+            <p class="text-xs text-slate-400">
+              Officially recognized by the Ministry of Micro, Small and Medium Enterprises, Govt. of India.
+            </p>
+          </div>
+
+          <!-- Column 2: Google Verified Business -->
+          <div class="bg-slate-950/80 rounded-2xl p-6 border border-slate-800 text-center">
+            <img src="assets/images/google_business_badge.png" alt="Google Verified Badge" class="h-12 mx-auto mb-3 object-contain">
+            <h3 class="text-base font-bold font-heading text-white mb-1">5.0 Star Google Rated</h3>
+            <div class="flex items-center justify-center gap-1 text-amber-400 text-xs mb-3">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="text-slate-300 font-bold ml-1">(5.0 / 5.0)</span>
+            </div>
+            <p class="text-xs text-slate-400">
+              Verified client testimonials on Google Maps with physical headquarters in Civil Lines, Bareilly.
+            </p>
+          </div>
+
+          <!-- Column 3: Direct Banking & Founder -->
+          <div class="bg-slate-950/80 rounded-2xl p-6 border border-slate-800 text-center">
+            <div class="w-14 h-14 rounded-2xl bg-blue-950/80 text-brandSky flex items-center justify-center text-2xl mx-auto mb-4 border border-blue-500/30">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <h3 class="text-base font-bold font-heading text-white mb-1">Bank of Baroda Current A/C</h3>
+            <div class="text-xs text-slate-300 font-semibold mb-3">Direct Invoicing & GST Invoices</div>
+            <p class="text-xs text-slate-400">
+              Founder Akshit Saxena: <strong class="text-white">+91 8650659985</strong><br>
+              akshitasaxena21.00@gmail.com
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 8: FAQ Section -->
+  <section id="faq-section" class="py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs uppercase tracking-widest text-brandSky font-bold">Frequently Asked Questions</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold font-heading text-white mt-2">
+          Everything You Need to Know
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="glass-panel rounded-2xl p-5 border border-slate-800">
+          <button class="faq-toggle-btn w-full flex items-center justify-between text-left text-sm font-bold text-white focus:outline-none">
+            <span>Is AS Collab's Amazon Vine Review setup 100% compliant with Amazon's Terms of Service?</span>
+            <i class="fa-solid fa-chevron-down faq-icon text-brandSky transition-transform duration-200"></i>
+          </button>
+          <div class="mt-3 text-xs text-slate-400 leading-relaxed hidden">
+            Yes, 100%. We operate strictly through Amazon's official Brand Registry Vine Voice program and whitelisted protocols. We never engage in black-hat review schemes, fake review rings, or incentivized buyer manipulation. Every review carries the official "Vine Customer Review of Free Product" badge.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="glass-panel rounded-2xl p-5 border border-slate-800">
+          <button class="faq-toggle-btn w-full flex items-center justify-between text-left text-sm font-bold text-white focus:outline-none">
+            <span>How fast can an ASIN reach the Top 10 Best Sellers (BSR) in its category?</span>
+            <i class="fa-solid fa-chevron-down faq-icon text-brandSky transition-transform duration-200"></i>
+          </button>
+          <div class="mt-3 text-xs text-slate-400 leading-relaxed hidden">
+            Depending on your category competitiveness and inventory readiness, our typical 3-phase launch sprint takes between 21 to 35 days. By synchronizing high-conversion 9:16 UGC video ads, Vine reviews, and dayparted PPC conquesting, we create the sales velocity spike required for Amazon's algorithm to award Top 10 rank.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="glass-panel rounded-2xl p-5 border border-slate-800">
+          <button class="faq-toggle-btn w-full flex items-center justify-between text-left text-sm font-bold text-white focus:outline-none">
+            <span>Do we own full commercial rights to the UGC video reels created?</span>
+            <i class="fa-solid fa-chevron-down faq-icon text-brandSky transition-transform duration-200"></i>
+          </button>
+          <div class="mt-3 text-xs text-slate-400 leading-relaxed hidden">
+            Yes. Every creator in our 500+ vetted network signs an irrevocable commercial licensing agreement. You receive full perpetual usage rights across Meta Ads, Instagram Reels, Amazon Sponsored Brand Videos, Flipkart Ads, and your website.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="glass-panel rounded-2xl p-5 border border-slate-800">
+          <button class="faq-toggle-btn w-full flex items-center justify-between text-left text-sm font-bold text-white focus:outline-none">
+            <span>Can AS Collab help us onboard onto Blinkit, Zepto, and Instamart dark stores?</span>
+            <i class="fa-solid fa-chevron-down faq-icon text-brandSky transition-transform duration-200"></i>
+          </button>
+          <div class="mt-3 text-xs text-slate-400 leading-relaxed hidden">
+            Yes! For FMCG, food & beverage, personal care, and home essentials brands, we manage catalog compliance, dark store distribution mapping, and local quick-commerce visibility to achieve 10-minute instant delivery for your customers.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="glass-panel rounded-2xl p-5 border border-slate-800">
+          <button class="faq-toggle-btn w-full flex items-center justify-between text-left text-sm font-bold text-white focus:outline-none">
+            <span>Where is AS Collab based and how do we begin?</span>
+            <i class="fa-solid fa-chevron-down faq-icon text-brandSky transition-transform duration-200"></i>
+          </button>
+          <div class="mt-3 text-xs text-slate-400 leading-relaxed hidden">
+            AS Collab is headquartered in Civil Lines, Bareilly, Uttar Pradesh, serving brands nationwide across Delhi NCR, Mumbai, Bangalore, and all tier-1/tier-2 hubs. You can begin immediately by submitting your ASIN for a Free Audit or chatting directly with Founder Akshit Saxena on WhatsApp at +91 8650659985.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 9: Footer & Direct Contact -->
+  <footer class="bg-slate-950 border-t border-slate-800 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-slate-800">
+        
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="assets/images/agency_logo.jpg" alt="Logo" class="w-10 h-10 rounded-xl">
+            <div>
+              <span class="text-lg font-black font-heading text-white">AS COLLAB</span>
+              <span class="text-[10px] text-slate-400 block">D2C & Amazon Launch Agency</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 max-w-sm mb-4 leading-relaxed">
+            Propelling Indian brands to category leadership with high-converting 9:16 UGC reels, compliant Amazon Vine review velocity, and data-driven DSP advertising.
+          </p>
+          <div class="text-xs text-slate-300 space-y-1">
+            <div><i class="fa-solid fa-location-dot text-brandSky mr-2"></i> Civil Lines, Bareilly, Uttar Pradesh, India - 243001</div>
+            <div><i class="fa-solid fa-phone text-brandSky mr-2"></i> +91 8650659985 (Direct Founder Helpline)</div>
+            <div><i class="fa-solid fa-envelope text-brandSky mr-2"></i> akshitasaxena21.00@gmail.com</div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Interactive Tools</h4>
+          <ul class="text-xs text-slate-400 space-y-2">
+            <li><a href="#bsr-calculator" class="hover:text-brandSky transition">Amazon BSR Simulator</a></li>
+            <li><a href="#roi-calculator" class="hover:text-brandSky transition">Live Campaign ROI Estimator</a></li>
+            <li><a href="#audit-section" class="hover:text-amber-400 transition">Free ASIN Listing Audit</a></li>
+            <li><a href="#ugc-section" class="hover:text-brandSky transition">9:16 Creator Video Showreel</a></li>
+            <li><a href="calculator.html" class="hover:text-brandSky transition">Dedicated Calculator Suite</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Enterprise Portals</h4>
+          <ul class="text-xs text-slate-400 space-y-2">
+            <li><button onclick="openPortalModal()" class="hover:text-brandSky transition text-left">Brand Client Portal</button></li>
+            <li><button onclick="openCreatorModal()" class="hover:text-brandSky transition text-left">Join 500+ Creator Network</button></li>
+            <li><a href="#trust-dossier-section" class="hover:text-emerald-400 transition">Official MSME Dossier</a></li>
+            <li><a href="https://wa.me/918650659985" target="_blank" class="hover:text-emerald-400 transition">Instant WhatsApp Support</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <div>
+          &copy; 2026 AS Collab Enterprise (MSME: UDYAM-UP-12-0080649). All rights reserved.
+        </div>
+        <div class="flex items-center gap-4">
+          <span>TOS Compliant E-Commerce Growth</span>
+          <span>•</span>
+          <a href="https://maps.google.com/?q=AS+Collab+Civil+Lines+Bareilly+Uttar+Pradesh" target="_blank" class="hover:text-slate-300">Google Maps HQ</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Sticky App Navigation -->
+  <div class="mobile-nav-bar md:hidden">
+    <a href="index.html" class="mobile-nav-item active">
+      <i class="fa-solid fa-house"></i>
+      <span>Home</span>
+    </a>
+    <a href="#services-section" class="mobile-nav-item">
+      <i class="fa-solid fa-cubes"></i>
+      <span>Services</span>
+    </a>
+    <a href="#bsr-calculator" class="mobile-nav-item">
+      <i class="fa-solid fa-chart-line"></i>
+      <span>BSR Calc</span>
+    </a>
+    <a href="#audit-section" class="mobile-nav-item text-amber-400">
+      <i class="fa-solid fa-bolt"></i>
+      <span>Free Audit</span>
+    </a>
+    <a href="https://wa.me/918650659985?text=Hi%20Akshit,%20I%20want%20to%20scale%20my%20Amazon%20brand%20with%20AS%20Collab." target="_blank" class="mobile-nav-item text-emerald-400">
+      <i class="fa-brands fa-whatsapp text-lg"></i>
+      <span>Chat</span>
+    </a>
+  </div>
+
+  <!-- Modal 1: Audit Live Scanning Modal -->
+  <div id="auditScanModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="glass-panel bg-slate-900 border border-slate-700 rounded-3xl max-w-lg w-full p-6 sm:p-8 text-center relative shadow-2xl">
+      <button onclick="closeAuditModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="w-16 h-16 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-3xl mx-auto mb-4 border border-amber-500/30">
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+      </div>
+
+      <h3 class="text-xl font-bold font-heading text-white mb-1">Analyzing Amazon Listing</h3>
+      <p id="auditScanStatus" class="text-xs text-slate-400 mb-6">Connecting to Amazon India Catalog API...</p>
+
+      <!-- Progress bar -->
+      <div class="w-full bg-slate-800 rounded-full h-2.5 mb-4 overflow-hidden">
+        <div id="auditProgressBar" class="bg-gradient-to-r from-amber-400 to-orange-500 h-2.5 rounded-full transition-all duration-300 w-1/5"></div>
+      </div>
+
+      <div id="auditScanResults" class="hidden"></div>
+    </div>
+  </div>
+
+  <!-- Modal 2: 9:16 UGC Video Reel Player Modal -->
+  <div id="ugcReelModal" class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-700 rounded-3xl max-w-sm w-full p-4 relative shadow-2xl text-center">
+      <button onclick="closeReelModal()" class="absolute top-3 right-3 text-slate-400 hover:text-white p-2 z-10">
+        <i class="fa-solid fa-xmark text-xl"></i>
+      </button>
+
+      <div class="relative aspect-reel rounded-2xl overflow-hidden mb-3 border border-slate-800 bg-black">
+        <img id="reelModalImage" src="assets/images/khilori_ugc.jpg" alt="Reel Preview" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <div class="w-14 h-14 rounded-full bg-brandSky text-brandDark flex items-center justify-center text-xl shadow-xl">
+            <i class="fa-solid fa-play ml-1"></i>
+          </div>
+        </div>
+      </div>
+
+      <h4 id="reelModalTitle" class="text-sm font-bold font-heading text-white">Khilori Organics — Glow Routine</h4>
+      <p id="reelModalMeta" class="text-xs text-slate-400 mb-4">Creator: Pooja V. • 4.8% CTR • 9:16 Mobile-First</p>
+
+      <a href="https://wa.me/918650659985?text=Hi%20Akshit!%20I%20want%20to%20produce%20UGC%20video%20reels%20for%20my%20brand%20like%20this%20one." target="_blank" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-bold text-xs flex items-center justify-center gap-2">
+        <i class="fa-solid fa-wand-magic-sparkles"></i> Produce Reels Like This For My Brand
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal 3: Creator Gateway Modal -->
+  <div id="creatorGatewayModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="glass-panel bg-slate-900 border border-slate-700 rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl">
+      <button onclick="closeCreatorModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="text-center mb-6">
+        <div class="w-12 h-12 rounded-xl bg-purple-950 text-purple-400 flex items-center justify-center text-xl mx-auto mb-3 border border-purple-500/30">
+          <i class="fa-solid fa-camera"></i>
+        </div>
+        <h3 class="text-xl font-bold font-heading text-white">Join 500+ Paid Creator Network</h3>
+        <p class="text-xs text-slate-400 mt-1">Receive free D2C products and paid retainers for making 9:16 reels.</p>
+      </div>
+
+      <form onsubmit="event.preventDefault(); window.open('https://wa.me/918650659985?text=Hello%20AS%20Collab!%20I%20am%20a%20Creator%20applying%20to%20join%20your%20500%2B%20network.', '_blank'); closeCreatorModal();" class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Your Full Name</label>
+          <input type="text" required placeholder="e.g. Shalini Sharma" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-purple-400">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Instagram Handle / Profile Link</label>
+          <input type="text" required placeholder="e.g. @shalini_glow" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-purple-400">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Niche Category</label>
+          <select class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-purple-400">
+            <option>Beauty & Skincare</option>
+            <option>Tech & Electronics</option>
+            <option>Fashion & Lifestyle</option>
+            <option>Health & Fitness</option>
+            <option>Home & Kitchen</option>
+          </select>
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-purple-500/20">
+          Submit Creator Application
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal 4: Brand Portal Modal -->
+  <div id="brandPortalModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="glass-panel bg-slate-900 border border-slate-700 rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl">
+      <button onclick="closePortalModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="text-center mb-6">
+        <div class="w-12 h-12 rounded-xl bg-sky-950 text-brandSky flex items-center justify-center text-xl mx-auto mb-3 border border-sky-500/30">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <h3 class="text-xl font-bold font-heading text-white">Brand Partner Portal</h3>
+        <p class="text-xs text-slate-400 mt-1">Access your live campaign telemetry, ASIN velocity reports & creator approvals.</p>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Registered Brand Email</label>
+          <input type="email" placeholder="founder@yourbrand.com" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brandSky">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Access Passcode</label>
+          <input type="password" placeholder="••••••••" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brandSky">
+        </div>
+        <a href="https://ascollab.in/brand-login" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-sky-500/20 text-center block">
+          Secure Brand Sign In
+        </a>
+        <div class="text-center">
+          <a href="https://wa.me/918650659985?text=Hi%20Akshit!%20I%20need%20assistance%20logging%20into%20my%20AS%20Collab%20Brand%20Portal." target="_blank" class="text-xs text-brandSky hover:underline">
+            Forgot Passcode? Contact Founder Akshit
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
