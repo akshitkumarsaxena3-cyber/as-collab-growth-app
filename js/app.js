@@ -389,3 +389,23 @@ function initFaqAccordion() {
     });
   });
 }
+
+
+// ==========================================
+// 9. Official Google Reviews Interactive Filter
+// ==========================================
+function filterGoogleReviews(cat, btn) {
+  var buttons = document.querySelectorAll('.gr-filter-btn');
+  buttons.forEach(function(b) { b.classList.remove('active'); });
+  if (btn) btn.classList.add('active');
+
+  var cards = document.querySelectorAll('#googleReviewsGrid .gr-card');
+  cards.forEach(function(card) {
+    var cats = (card.getAttribute('data-cats') || '').split(',');
+    if (cat === 'all' || cats.indexOf(cat) !== -1) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
