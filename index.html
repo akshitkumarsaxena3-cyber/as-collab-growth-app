@@ -1249,6 +1249,226 @@ Direct WhatsApp and telephone access to Founder Akshit Saxena and senior strateg
 </div>
 </div>
 </footer>
+
+
+    <!-- ============================================================================== -->
+    <!-- AUTOMATIC OPENING LEAD CAPTURE POPUP MODAL (LIGHT THEME) -->
+    <!-- ============================================================================== -->
+    <div id="openingLeadPopupModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-300" style="display:none; position: fixed; inset: 0; z-index: 99999; align-items: center; justify-content: center; padding: 16px; background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(8px);">
+        <div class="relative w-full max-w-lg bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-2xl transform scale-95 transition-all duration-300" id="openingLeadPopupBox" style="background: #ffffff; border-radius: 24px; padding: 28px 24px; border: 1.5px solid #e2e8f0; max-width: 500px; width: 100%; position: relative; box-shadow: 0 25px 60px -15px rgba(0,0,0,0.3), 0 0 35px rgba(2,132,199,0.18);">
+            <!-- Close Button -->
+            <button type="button" onclick="closeOpeningPopup()" style="position: absolute; top: 16px; right: 16px; width: 34px; height: 34px; border-radius: 50%; background: #f1f5f9; border: 1px solid #cbd5e1; color: #475569; font-size: 20px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; line-height: 1;" aria-label="Close Modal">&times;</button>
+
+            <!-- Eyebrow & Header -->
+            <div style="text-align: center; margin-bottom: 20px;">
+                <span style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 9999px; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; margin-bottom: 8px;">
+                    <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #0284c7;"></span> 🎁 FREE 2026 ASIN GROWTH AUDIT PASS
+                </span>
+                <h3 style="font-size: 22px; font-weight: 900; color: #0f172a; margin: 6px 0 6px; line-height: 1.25; font-family: 'Outfit', sans-serif;">
+                    Launch Your Brand into <span style="color: #0284c7;">Top 10 BSR</span>
+                </h3>
+                <p style="font-size: 12.5px; color: #475569; margin: 0; line-height: 1.5;">
+                    Zero fake reviews. 100% white-hat Amazon Vine acceleration &amp; 9:16 UGC reels. Direct consultation with Founder <b>Akshit Saxena</b>.
+                </p>
+            </div>
+
+            <!-- Form -->
+            <form id="openingLeadForm" onsubmit="submitOpeningLead(event)" style="display: flex; flex-direction: column; gap: 12px;">
+                <input type="hidden" name="visitor_uuid" id="popupVisitorUuid" value="">
+                <input type="hidden" name="visitor_type" id="popupVisitorType" value="New Visitor">
+                <input type="hidden" name="visit_count" id="popupVisitCount" value="1">
+
+                <div>
+                    <label style="display: block; font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Your Name *</label>
+                    <input type="text" name="contact_name" required placeholder="e.g. Rahul Sharma" style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1.5px solid #cbd5e1; background: #ffffff; color: #0f172a; font-size: 13px; outline: none; box-sizing: border-box;">
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <div>
+                        <label style="display: block; font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">WhatsApp Number *</label>
+                        <input type="tel" name="phone" required placeholder="e.g. 9876543210" style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1.5px solid #cbd5e1; background: #ffffff; color: #0f172a; font-size: 13px; outline: none; box-sizing: border-box;">
+                    </div>
+                    <div>
+                        <label style="display: block; font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Email Address</label>
+                        <input type="email" name="email" placeholder="e.g. brand@domain.com" style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1.5px solid #cbd5e1; background: #ffffff; color: #0f172a; font-size: 13px; outline: none; box-sizing: border-box;">
+                    </div>
+                </div>
+
+                <div>
+                    <label style="display: block; font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Brand Name or Product ASIN *</label>
+                    <input type="text" name="brand_name" required placeholder="e.g. Khilori / B08XYZ..." style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1.5px solid #cbd5e1; background: #ffffff; color: #0f172a; font-size: 13px; outline: none; box-sizing: border-box;">
+                </div>
+
+                <div>
+                    <label style="display: block; font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Primary Growth Service Needed</label>
+                    <select name="service_needed" style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1.5px solid #cbd5e1; background: #ffffff; color: #0f172a; font-size: 13px; outline: none; box-sizing: border-box;">
+                        <option value="Amazon ASIN Launch &amp; Vine Reviews">Amazon ASIN Launch &amp; Vine Reviews</option>
+                        <option value="9:16 E-Commerce UGC Video Reels (500+ Creators)">9:16 E-Commerce UGC Video Reels (500+ Creators)</option>
+                        <option value="Amazon &amp; Flipkart PPC / DSP Ads Scaling">Amazon &amp; Flipkart PPC / DSP Ads Scaling</option>
+                        <option value="Dark Store &amp; Quick-Commerce (Blinkit/Zepto)">Dark Store &amp; Quick-Commerce (Blinkit/Zepto)</option>
+                        <option value="Custom D2C Web &amp; Mobile App Development">Custom D2C Web &amp; Mobile App Development</option>
+                        <option value="Complete 360° Marketplace Management">Complete 360° Marketplace Management</option>
+                    </select>
+                </div>
+
+                <div id="openingPopupFeedback" style="display: none; padding: 10px 14px; border-radius: 12px; font-size: 12px; font-weight: 700; text-align: center;"></div>
+
+                <button type="submit" id="openingPopupSubmitBtn" style="width: 100%; padding: 13px; border-radius: 12px; background: linear-gradient(135deg, #0284c7, #2563eb); color: #ffffff; font-size: 14px; font-weight: 900; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 8px 20px rgba(2,132,199,0.3); transition: all 0.2s;">
+                    <span>⚡ Claim Free Growth Audit &amp; Connect &rarr;</span>
+                </button>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: #64748b; padding-top: 4px;">
+                    <span style="display: flex; align-items: center; gap: 4px;"><span style="color:#059669;">🛡️</span> Govt. MSME Registered Agency</span>
+                    <button type="button" onclick="closeOpeningPopup()" style="background: none; border: none; color: #94a3b8; text-decoration: underline; cursor: pointer; font-size: 11px;">Maybe Later</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating Re-open Badge (In case user closed popup) -->
+    <div id="floatingAuditBadge" onclick="openOpeningPopup(true)" style="position: fixed; bottom: 85px; left: 16px; z-index: 40; background: #ffffff; border: 1.5px solid #38bdf8; border-radius: 9999px; padding: 8px 14px; display: flex; align-items: center; gap: 8px; cursor: pointer; box-shadow: 0 10px 30px rgba(2,132,199,0.25); transition: transform 0.2s;">
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #10b981;"></span>
+        <span style="font-size: 12px; font-weight: 800; color: #0f172a;">🎁 Free Brand Audit Pass</span>
+    </div>
+
+
+    <!-- VISITOR TRACKING & OPENING POPUP CONTROLLER -->
+    <script>
+    (function initVisitorTracker() {
+        try {
+            var vId = localStorage.getItem('ascollab_visitor_id');
+            var vCount = parseInt(localStorage.getItem('ascollab_visit_count') || '0', 10);
+            var isNew = 0;
+
+            if (!vId) {
+                vId = 'v_' + Date.now() + '_' + Math.random().toString(36).substring(2, 8);
+                vCount = 1;
+                isNew = 1;
+                localStorage.setItem('ascollab_visitor_id', vId);
+                localStorage.setItem('ascollab_first_visit', new Date().toISOString());
+            } else {
+                vCount += 1;
+                isNew = 0;
+            }
+
+            localStorage.setItem('ascollab_visit_count', vCount.toString());
+            localStorage.setItem('ascollab_last_visit', new Date().toISOString());
+
+            // Set hidden fields
+            var idInput = document.getElementById('popupVisitorUuid');
+            var typeInput = document.getElementById('popupVisitorType');
+            var countInput = document.getElementById('popupVisitCount');
+            if (idInput) idInput.value = vId;
+            if (typeInput) typeInput.value = isNew ? 'New Visitor' : 'Returning Visitor';
+            if (countInput) countInput.value = vCount.toString();
+
+            // Track visit with server
+            var payload = {
+                visitor_uuid: vId,
+                is_new: isNew,
+                visit_count: vCount,
+                page_url: window.location.pathname + window.location.search,
+                referrer: document.referrer || 'Direct'
+            };
+
+            if (navigator.sendBeacon) {
+                var blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+                navigator.sendBeacon('/api/track-visitor', blob);
+            } else {
+                fetch('/api/track-visitor', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).catch(function() {});
+            }
+        } catch(e) {}
+    })();
+
+    function openOpeningPopup(force) {
+        var modal = document.getElementById('openingLeadPopupModal');
+        var box = document.getElementById('openingLeadPopupBox');
+        if (!modal || !box) return;
+
+        if (!force) {
+            var submitted = localStorage.getItem('ascollab_popup_submitted');
+            var dismissedSession = sessionStorage.getItem('ascollab_popup_dismissed');
+            if (submitted || dismissedSession) return;
+        }
+
+        modal.style.display = 'flex';
+        setTimeout(function() {
+            modal.style.opacity = '1';
+            modal.style.pointerEvents = 'auto';
+            box.style.transform = 'scale(1)';
+        }, 30);
+    }
+
+    function closeOpeningPopup() {
+        var modal = document.getElementById('openingLeadPopupModal');
+        var box = document.getElementById('openingLeadPopupBox');
+        if (!modal || !box) return;
+
+        modal.style.opacity = '0';
+        modal.style.pointerEvents = 'none';
+        box.style.transform = 'scale(0.95)';
+        setTimeout(function() {
+            modal.style.display = 'none';
+        }, 300);
+
+        sessionStorage.setItem('ascollab_popup_dismissed', 'true');
+    }
+
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            openOpeningPopup(false);
+        }, 1200);
+    });
+
+    function submitOpeningLead(e) {
+        e.preventDefault();
+        var form = document.getElementById('openingLeadForm');
+        var btn = document.getElementById('openingPopupSubmitBtn');
+        var fb = document.getElementById('openingPopupFeedback');
+        btn.disabled = true;
+        btn.innerHTML = '<span>⏳ Submitting Audit...</span>';
+
+        var formData = new FormData(form);
+        fetch('/api/submit-lead', {
+            method: 'POST',
+            body: formData
+        })
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+            btn.disabled = false;
+            btn.innerHTML = '<span>⚡ Claim Free Growth Audit &amp; Connect &rarr;</span>';
+            fb.style.display = 'block';
+            if (data.success) {
+                fb.style.background = '#dcfce7';
+                fb.style.color = '#15803d';
+                fb.style.border = '1px solid #bbf7d0';
+                fb.innerHTML = '🎉 Success! Audit request saved.<br><a href="' + data.whatsapp_url + '" target="_blank" style="display:inline-block; margin-top:6px; padding:4px 10px; background:#16a34a; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold; font-size:11px;">👉 Click Here to Open WhatsApp</a>';
+                localStorage.setItem('ascollab_popup_submitted', 'true');
+                form.reset();
+                setTimeout(function() { closeOpeningPopup(); }, 3500);
+            } else {
+                fb.style.background = '#ffe4e6';
+                fb.style.color = '#9f1239';
+                fb.style.border = '1px solid #fecdd3';
+                fb.innerText = data.message || 'Submission failed. WhatsApp 8650659985.';
+            }
+        })
+        .catch(function(err) {
+            btn.disabled = false;
+            btn.innerHTML = '<span>⚡ Claim Free Growth Audit &amp; Connect &rarr;</span>';
+            fb.style.display = 'block';
+            fb.style.background = '#ffe4e6';
+            fb.style.color = '#9f1239';
+            fb.style.border = '1px solid #fecdd3';
+            fb.innerText = 'Network issue. WhatsApp directly at +91 8650659985.';
+        });
+    }
+    </script>
+
 <!-- Mobile Bottom Sticky App Navigation -->
 <div class="mobile-nav-bar md:hidden">
 <a class="mobile-nav-item active" href="index.html">
